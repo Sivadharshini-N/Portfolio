@@ -1,6 +1,6 @@
 import React from 'react';
 import me from './../assets/me.jpg';
-import "./../App.css" 
+import "./../App.css";
 
 const Intro = () => {
     return (
@@ -15,7 +15,8 @@ const Intro = () => {
                         <h2 style={{ color: "#bbff33",letterSpacing:"4px",textShadow:"3px -5px 10px #bbff33",lineHeight:"30px"}}>I'm Sivadharshini</h2><br/>
                         <p style={{color:"white"}}>
                             I’m a passionate Front-End Developer with a love for creating interactive and visually appealing web experiences. 
-                            With a strong foundation in HTML, CSS, JavaScript, I enjoy building responsive websites and applications that provide seamless user experiences.
+                            With a strong foundation in HTM
+                            L, CSS, JavaScript, I enjoy building responsive websites and applications that provide seamless user experiences.
                         </p>                        
                     </div>
                 </div>

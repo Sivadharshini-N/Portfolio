@@ -2,9 +2,14 @@ body {
     background-color: rgb(25, 25, 26) !important;
   }
   *
-  {
-    font-family: "vibur",cursive;
-  }
+ 
+
+  body {
+    font-family: 'Edu VIC WA NT Beginner', sans-serif;  }
+  
+  /* h1, h2, h3,p {
+    font-family: 'Edu VIC WA NT Beginner', sans-serif;
+  } */
 /* #bbff33 */
 @keyframes slideDown {
   from {
