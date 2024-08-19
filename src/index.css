@@ -1,0 +1,70 @@
+body
+ {
+    background-color: #363636;
+    font-family: 'Montserrat';
+  }
+
+
+  .nav
+  {
+    background-color: #363636;
+  }
+  
+  .intro .row
+  {
+    height: 100vh;
+    
+  }
+  .about .row
+  {
+    height: 100vh;
+  }
+  h1
+  {
+    color: #bbff33;
+    font-weight: 500;
+    text-shadow: 2px 3px 10px #bbff33;
+    letter-spacing: 10px;
+  }
+  h2
+  {
+    color: #bbff33;
+    letter-spacing: 5px;
+    font-weight: 700;
+  }
+  .resumetag
+  {
+    text-decoration: none;
+    color: #bbff33;
+  }
+  .nav-link
+  {
+    color: #bbff33;
+    font-weight: 400;
+    
+  }
+  .navbar-brand
+  {
+    
+    text-shadow: 0 0 10px #bbff33 ;
+    font-size: 50px;
+  }
+  
+ 
+/* #bbff33 */
+/* #bbff33 */
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.slide-down {
+  animation: slideDown 2s ease-out forwards;
+}
+

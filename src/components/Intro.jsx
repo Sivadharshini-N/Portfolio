@@ -1,25 +1,51 @@
 import React from 'react';
-import me from './../assets/me.jpg';
-import "./../App.css";
+import me from "./../assets/images/me.png"
+import linklogo from "./../assets/images/linklogo.png"
+import github from "./../assets/images/github.png"
+import medium from "./../assets/images/medium.png"
+import gmail from "./../assets/images/gmail.png"
+
 
 const Intro = () => {
     return (
-        <div>
-            <div className="container d-flex justify-content-center align-items-center slide-down" style={{ color: "#bbff33", height:"500px"}}>
-                <div className="row">
-                    <div className="col-md-4 col-sm-1">
-                        <img src={me} alt="Sivadharshini" width={"100%"} style={{borderRadius: "50%" }} />
+        <div id="intro">
+            <div className="container-fluid intro slide-down" >
+                <div className="row text-light">
+                    <div className="col-md-7 column-content col-sm-12 d-flex n align-items-center justify-content-center">
+                        <div className="text-center mb-4">
+                            <p>Once upon a time, there lived a <h1>FrontEnd dev</h1>known as</p>
+                            <h2>Sivadharshini Nagarajan</h2>
+                            <br />
+                            <div className="text-center ">
+                                <div className="row text-center d-flex justify-content-center align-items-center" style={{ height: "1vh" }}>
+                                    <div className="col-2 col-md-1 ">
+                                       <a href="https://www.linkedin.com/in/sivadharshini-nagarajan/" target='_blank'> <img src={linklogo} alt="" /></a>
+                                    </div>
+                                    <div className="col-2 col-md-1 ">
+                                       <a href="https://github.com/Sivadharshini-N"  target='_blank'><img src={github} alt="" /></a> 
+                                        
+                                    </div>
+                                    <div className="col-2 col-md-1">
+                                       <a href="https://medium.com/@nsivadharshini1"  target='_blank'><img src={medium} alt="" /></a> 
+                                        
+                                    </div>
+                                    <div className="col-2 col-md-1">
+                                       <a href="mailto:nsivadharshini1@gmail.com" target='_blank'><img src={gmail} alt="" /></a> 
+                                        
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        
                     </div>
-                    <div className="col-md-7 col-sm-1 pt-5">
-                        <h1 style={{ letterSpacing: "3px", fontSize: "20px", color: "#bbff33",textShadow:"3px -5px 10px #bbff33" }}>Hello World!</h1>
-                        <h2 style={{ color: "#bbff33",letterSpacing:"4px",textShadow:"3px -5px 10px #bbff33",lineHeight:"30px"}}>I'm Sivadharshini</h2><br/>
-                        <p style={{color:"white"}}>
-                            I’m a passionate Front-End Developer with a love for creating interactive and visually appealing web experiences. 
-                            With a strong foundation in HTM
-                            L, CSS, JavaScript, I enjoy building responsive websites and applications that provide seamless user experiences.
-                        </p>                        
+
+                    <div className="col-md-5 col-sm-12 column-content d-flex justify-content-center align-items-end">
+                        <img src={me} width={"100%"} alt="" />
+
                     </div>
                 </div>
+
             </div>
         </div>
     );
