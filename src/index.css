@@ -2,12 +2,18 @@ body
  {
     background-color: #363636;
     font-family: 'Montserrat';
+    
   }
 
 
   .nav
   {
     background-color: #363636;
+  }
+  hr
+  {
+    color: #bbff33;
+    font-weight: 900;
   }
   
   .intro .row
@@ -49,8 +55,30 @@ body
     text-shadow: 0 0 10px #bbff33 ;
     font-size: 50px;
   }
+/* .circle-frame
+{
+  border-radius: 50%;
+  background-color: #bbff33;
+} */
+ .bg-green
+ {
+  background-color: #bbff33;
+  border-radius: 50%;
   
- 
+ }
+ h6
+ {
+  color: #d9fb97;
+  font-weight: 500;
+ }
+ .bg-light
+{
+  opacity:30%;
+}
+.btn-green
+{
+  background-color:#cdf975;
+}
 /* #bbff33 */
 /* #bbff33 */
 @keyframes slideDown {

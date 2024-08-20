@@ -9,8 +9,9 @@ function App()
     return (
         <div>
           <Navbar>  </Navbar>
-          <Intro></Intro><br /><br />
-          <About></About>
+          <Intro></Intro><hr /><br />
+          <About></About><br /><br /><br /> 
+          <hr />
           <Project></Project>
 
 
