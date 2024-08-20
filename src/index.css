@@ -81,6 +81,14 @@ body
 }
 /* #bbff33 */
 /* #bbff33 */
+
+.skill-frame
+{
+  border-radius: 50%;
+  background-color: #cdf975;
+  height: 100px;
+  width: 100px;
+}
 @keyframes slideDown {
   from {
     transform: translateY(-100%);
