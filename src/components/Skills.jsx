@@ -18,7 +18,7 @@ const Skills = () => {
     <div id='skills'>
       <div className="container text-center">
         <h1>SuperPowers</h1><br /><br />
-        <h2>the Superpowers that drive my coding journey.</h2><br />  <br /><br />
+        <h2>Superpowers that drive my coding journey.</h2><br />  <br /><br />
         <div className="container"><div className="text-center">
 
         </div>
