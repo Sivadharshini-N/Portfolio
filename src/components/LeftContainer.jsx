@@ -19,7 +19,7 @@ const LeftContainer = ({src,title,desc,tech,url}) => {
                         <h2>{title}</h2>
                         <p>{desc}</p>
                         <h6>{tech}</h6><br />
-                        <button className='btn btn-green'><a href={url}></a>Demo</button> 
+                        <a href={url} target='_blank'><button className='btn btn-green' >Demo</button></a>
 
 
                     </div>
