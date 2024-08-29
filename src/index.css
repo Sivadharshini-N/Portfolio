@@ -49,10 +49,10 @@ body
     font-weight: 400;
     
   }
+
   .navbar-brand
   {
-    
-    text-shadow: 0 0 10px #bbff33 ;
+    font-fam: "Matemasie";
     font-size: 50px;
   }
 /* .circle-frame
@@ -103,4 +103,30 @@ body
 .slide-down {
   animation: slideDown 2s ease-out forwards;
 }
+
+.glossy-container {
+  background-color: rgba(255, 255, 255, 0.1); 
+  padding: 20px; 
+  position: relative; 
+}
+
+.text-area
+{
+  width:400px;
+  text-align: justify;
+  letter-spacing: 5px;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1) ;
+
+}
+input
+{
+  background-color: rgba(255, 255, 255, 0.1) ;
+  color: white;
+
+}
+
 

@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light fixed-top">
       <div className="container">
-        <a className="navbar-brand mx-auto" style={{ fontWeight: 900, fontSize: '20px' }} href="#">
+        <a className="navbar-brand mx-auto" style={{ fontWeight: 900, fontSize: '25px',color:"#bbff33", letterSpacing:"5px"}} href="#">
           Siv..
         </a>
         <button
